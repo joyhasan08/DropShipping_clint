@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="w-full bg-base-300">
-            <div className="navbar bg-base-300 flex justify-between md:x-20 mx-auto ">
+        <div className="w-full bg-base-300 fixed z-50 ">
+            <div className="navbar bg-base-300 flex justify-between md:px-10 lg:px-16   mx-auto ">
                 <div className="flex">
                     <a className=" font-semibold text-2xl p-2"> <span className="text-3xl">Z</span>ip <span className="text-amber-400 text-3xl">C</span>art</a>
                 </div>

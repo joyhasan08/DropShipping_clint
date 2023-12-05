@@ -9,19 +9,18 @@ const CarouselContainer = () => {
             <Carousel>
                 <div className='absolute '>
                     <img className='' src={bannerImg1} />
-                    <div className='absolute h-10 top-20  lg:max-w-2xl text-start p-5 space-y-4 '>
+                    <div className='absolute h-10 top-1 md:top-20  lg:max-w-2xl text-start p-5 space-y-4 '>
                         <h1 className=' text-xl font-semibold lg:text-6xl text-gray-800 font-normal'> Unleashing Swiftness <br /> in Every Shipment!</h1>
-                        <p className='lg:text-lg'>Embark on a seamless shopping journey with ZipCart, <br /> where our commitment to speed ensures swift, <br /> reliable deliveries for every order</p>
-                        <button className='btn' > Explore more </button>
+                        <p className='hidden md:block  lg:text-lg'>Embark on a seamless shopping journey with ZipCart, <br /> where our commitment to speed ensures swift, <br /> reliable deliveries for every order</p>
+                        <button className='btn ' > Explore more </button>
                     </div>
                 </div>
 
                 <div className=' absolute bg-gradient-to-r from-purple-500 to-teal-100 h-full opacity-90'>
                     <img src={bannerImg3} />
-                    <div className='absolute z-20  right-2  top-20  lg:max-w-2xl text-end p-5 space-y-6 opacity-100 '>
-
+                    <div className='hidden md:block absolute z-20  right-2   top-20  lg:max-w-2xl text-end p-5 space-y-6 opacity-100 '>
                         <h1 className='text-xl lg:text-6xl text-amber-700 font-bold'>Where Speed Meets Style in Every  <br />  Package!</h1>
-                        <p className='text-lg text-gray-700 font-semibold'>Lorem, ipsum dolor sit amet consectetur <br /> adipisicing elit. Officia, quo.</p>
+                        <p className='hidden md:block text-lg text-gray-700 font-semibold'>Lorem, ipsum dolor sit amet consectetur <br /> adipisicing elit. Officia, quo.</p>
                         <button className='btn bg-amber-400 text-white' > Explore more </button>
                     </div>
                 </div>
